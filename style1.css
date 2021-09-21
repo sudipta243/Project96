@@ -1,0 +1,174 @@
+body {
+    background-image: url("https://lh5.ggpht.com/0X7XYX6EEB0vqZKQbiJ_Umw7_wFGWkHd4v_6ZjmvGOxf1NGC3OvKG9cVndzlm-h-guY=h900");
+    background-size: cover;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#line {
+    background-color: #00ff00;
+    height: 3px;
+}
+
+.header {
+    color: purple;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    background-color: green;
+    background-image: linear-gradient(to bottom right, #cc6600 0%, #00ff00 100%);
+    width: 590px;
+    border-style: ridge;
+    border-color: blue;
+    border-width: 19px;
+    font-weight: bolder;
+}
+
+.header img {
+    width: 80px;
+    margin-left: -15px;
+}
+
+.login_div {
+    background: linear-gradient(to bottom right, magenta, orange);
+    border-radius: 35px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 10px;
+    margin-top: 180px;
+    float: right;
+    margin-right: -590px;
+    width: 600px;
+    height: 460px;
+}
+
+
+
+.logo {
+    width: 210px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: rgb(238, 29, 151);
+    border-style: ridge;
+}
+
+#login_button {
+    width: 40%;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.room_name {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+#logout {
+    font-size: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: -90px;
+}
+
+#room_name {
+    background-color: maroon;
+    color: deeppink;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#output {
+    padding: 10px;
+    width: 80%;
+    background: yellow;
+    border-radius: 15px;
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+    overflow-y:scroll;
+    height: 380px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:deepskyblue;
+}
+
+#user_name {
+    font-size: 35px;
+    width: 300px;
+    border-bottom-color: red;
+    border-width: 10px;
+    border-bottom-style: solid;
+    border-radius: 50px;
+    font-weight: bolder;
+    margin-left: -1000px;
+    margin-top: -140px;
+    height: 80px;
+    padding-top: 12px;
+}
+
+.input_div_room_page {
+    width: 80%;
+    margin-top: 120px;
+    background-color: lime;
+}
+
+.input_div label {
+    color: blue;
+    font-size: 40px;
+}
+
+.color_white {
+    color: white;
+
+}
+
+.user_tick {
+    width: 50px;
+}
+
+.message_h4 {
+    padding-left: 5px;
+    color:darkgreen;
+}
+
+
+
+.input_div_message_page {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background:blueviolet;
+    height: 120px;
+}
+
+.input_div_message_page label {
+    color: black;
+    font-size: 18px;
+}
+
+.input_div_message_page #msg {
+    width: 80%;
+    background-color: maroon;
+    color:yellow;
+    font-weight: bold;
+}
+
+.input_div_message_page button {
+    margin-top: 10px;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: tomato;
+    height: 40px;
+
+}

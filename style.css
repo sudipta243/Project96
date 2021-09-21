@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://s3-eu-west-1.amazonaws.com/wbm.thumbnail/all/266754_1280.jpg");
+    background-size: cover;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.header {
+    float: right;
+    color: white;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    background-color: green;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    width: 590px;
+    border-style: ridge;
+    border-color: hotpink;
+    border-width: 19px;
+    margin-right: 80px;
+}
+
+.header img {
+    width: 80px;
+    margin-left: -15px;
+}
+
+.login_div {
+    background: linear-gradient(to bottom right, magenta, orange);
+    border-radius: 35px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 10px;
+    margin-top: 180px;
+    float: right;
+    margin-right: -590px;
+    width: 600px;
+    height: 460px;
+}
+
+
+
+.logo {
+    width: 210px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: rgb(238, 29, 151);
+    border-style: ridge;
+}
+
+#login_button {
+    width: 40%;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
